@@ -5,7 +5,8 @@ import './index.css';
 // import Hello from './components/Hello';
 // import ContainerSample from './components/ContainerSample';
 // import ContextSample from './components/ContextSample';
-import Counter from './components/Counter';
+// import Counter from './components/Counter';
+import Parent from './components/Parent';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(
@@ -13,7 +14,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <Counter initialValue={1}/>
+    <Parent />
   </React.StrictMode>
 );
 
