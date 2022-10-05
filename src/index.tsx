@@ -6,7 +6,8 @@ import './index.css';
 // import ContainerSample from './components/ContainerSample';
 // import ContextSample from './components/ContextSample';
 // import Counter from './components/Counter';
-import Parent from './components/Parent';
+// import Parent from './components/Parent';
+import Parent from './components/UseStateSample';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(
