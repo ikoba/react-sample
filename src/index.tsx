@@ -7,7 +7,8 @@ import './index.css';
 // import ContextSample from './components/ContextSample';
 // import Counter from './components/Counter';
 // import Parent from './components/Parent';
-import Parent from './components/UseStateSample';
+// import Parent from './components/UseStateSample';
+import UseMemoSample from './components/UseMemoSample';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(
@@ -15,7 +16,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <Parent />
+    <UseMemoSample />
   </React.StrictMode>
 );
 
