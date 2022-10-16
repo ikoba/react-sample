@@ -9,7 +9,8 @@ import './index.css';
 // import Parent from './components/Parent';
 // import Parent from './components/UseStateSample';
 // import UseMemoSample from './components/UseMemoSample';
-import Clock from './components/Clock';
+// import Clock from './components/Clock';
+import ImageUploader from './components/ImageUploader';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(
@@ -17,7 +18,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <Clock />
+    <ImageUploader />
   </React.StrictMode>
 );
 
