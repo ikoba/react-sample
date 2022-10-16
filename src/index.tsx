@@ -8,7 +8,8 @@ import './index.css';
 // import Counter from './components/Counter';
 // import Parent from './components/Parent';
 // import Parent from './components/UseStateSample';
-import UseMemoSample from './components/UseMemoSample';
+// import UseMemoSample from './components/UseMemoSample';
+import Clock from './components/Clock';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(
@@ -16,7 +17,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <UseMemoSample />
+    <Clock />
   </React.StrictMode>
 );
 
